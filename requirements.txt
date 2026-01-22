@@ -1,0 +1,9 @@
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+sqlalchemy>=2.0.0
+httpx>=0.26.0
+beautifulsoup4>=4.12.0
+thefuzz>=0.22.0  # 原 fuzzywuzzy，用于书名模糊匹配
+python-Levenshtein>=0.25.0  # 加速模糊匹配
+pydantic>=2.0.0
+jinja2>=3.1.0
